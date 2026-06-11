@@ -20,7 +20,7 @@ const els = {
 
 async function init() {
   try {
-    const response = await fetch("samples.json");
+    const response = await fetch("samples.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`Unable to load samples.json (${response.status})`);
     state.manifest = await response.json();
     renderMethodHeader();
