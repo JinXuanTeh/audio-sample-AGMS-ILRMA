@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Sample Gallery</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <section class="titleBlock" aria-labelledby="pageTitle">
+        <p class="eyebrow">Audio Samples</p>
+        <h1 id="pageTitle">Speech Enhancement Examples</h1>
+        <p class="lede">Short male and female speech examples comparing the microphone input with AGMS-ILRMA outputs as source distance increases.</p>
+      </section>
+
+    </header>
+
+    <section class="notice" id="notice" hidden></section>
+    <section class="methodHeader" id="methodHeader" aria-label="Method columns"></section>
+    <section class="sampleList" id="sampleList" aria-live="polite"></section>
+  </main>
+
+  <template id="groupTemplate">
+    <article class="comparison">
+      <div class="comparisonHead">
+        <p class="caseKicker"></p>
+        <h2></h2>
+      </div>
+      <div class="speakerList"></div>
+    </article>
+  </template>
+
+  <template id="speakerTemplate">
+    <section class="speakerBlock">
+      <h3></h3>
+      <div class="methodGrid"></div>
+    </section>
+  </template>
+
+  <template id="methodTemplate">
+    <section class="methodCard">
+      <div class="clips"></div>
+    </section>
+  </template>
+
+  <template id="clipTemplate">
+    <div class="clip">
+      <button class="playButton" type="button">
+        <span class="playIcon" aria-hidden="true"></span>
+      </button>
+      <div class="playerBody">
+        <input class="seekRange" type="range" min="0" max="0" value="0" step="0.01">
+        <div class="timeRow" aria-hidden="true">
+          <span class="currentTime">0:00</span>
+          <span class="durationTime">0:00</span>
+        </div>
+      </div>
+      <audio preload="metadata"></audio>
+    </div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
