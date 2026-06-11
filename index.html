@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Audio Sample Gallery</title>
   <link rel="icon" href="favicon.ico?v=20260612" type="image/x-icon">
-  <link rel="stylesheet" href="styles.css?v=20260612">
+  <link rel="stylesheet" href="styles.css?v=20260612-waveform2">
 </head>
 <body>
   <main class="shell">
@@ -58,7 +58,10 @@
         <span class="playIcon" aria-hidden="true"></span>
       </button>
       <div class="playerBody">
-        <input class="seekRange" type="range" min="0" max="0" value="0" step="0.01">
+        <div class="waveformWrap">
+          <canvas class="waveCanvas" width="360" height="48" aria-hidden="true"></canvas>
+          <input class="seekRange" type="range" min="0" max="0" value="0" step="0.01">
+        </div>
         <div class="timeRow" aria-hidden="true">
           <span class="currentTime">0:00</span>
           <span class="durationTime">0:00</span>
@@ -68,6 +71,6 @@
     </div>
   </template>
 
-  <script src="app.js?v=20260612"></script>
+  <script src="app.js?v=20260612-waveform2"></script>
 </body>
 </html>
