@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Audio Sample Gallery",
-    "generated_at": "2026-06-11T11:03:13.426029+00:00",
-    "source_audio_dir": "subjective-test/audio_raw",
+    "generated_at": "2026-06-24T12:46:47.322715+00:00",
+    "source_audio_dir": "subjective-test/audio_sample_showcase_20260611/raw_audio",
     "snr_source_csv": "output/uav_input_low_high_rtf_repaired_mvdr_minimal_flat_sweep/to plot/minimal_combined_previous_and_gevb_plots/metric_values_long_combined_previous_and_gevb.csv",
     "target_level": "80 dBA",
     "normalization": "-32 dBFS(A), -1 dBFS peak ceiling",
@@ -41,11 +41,11 @@
         {
           "speaker": "female",
           "speaker_label": "Female voice",
-          "case_dir": "sp003_3m_a0_80dBA_noise002_fft2048_minimal",
+          "case_dir": "sp003_3m_a0_80dBA_noise004_fft2048_seed3_minimal",
           "sentence_index": "03",
-          "clip_start_s": 6.49,
+          "clip_start_s": 6.5,
           "clip_end_s": 9.955,
-          "speech_start_s": 7.49,
+          "speech_start_s": 7.5,
           "speech_end_s": 8.955,
           "methods": [
             {
@@ -74,33 +74,33 @@
         {
           "speaker": "male",
           "speaker_label": "Male voice",
-          "case_dir": "sp002_3m_a0_80dBA_noise003_fft2048_minimal",
-          "sentence_index": "03",
-          "clip_start_s": 7.32,
-          "clip_end_s": 11.995,
-          "speech_start_s": 8.32,
-          "speech_end_s": 10.995,
+          "case_dir": "sp004_3m_a0_80dBA_noise003_fft2048_seed3_minimal",
+          "sentence_index": "06",
+          "clip_start_s": 18.26,
+          "clip_end_s": 21.615,
+          "speech_start_s": 19.26,
+          "speech_end_s": 20.615,
           "methods": [
             {
               "method": "raw",
               "method_name": "Input",
               "tag": "Input",
-              "file": "distance_audio/3m_male_raw_s03.wav",
-              "duration_s": 4.67
+              "file": "distance_audio/3m_male_raw_s06.wav",
+              "duration_s": 3.35
             },
             {
               "method": "agms-ilrma",
               "method_name": "AGMS-ILRMA",
               "tag": "",
-              "file": "distance_audio/3m_male_agms-ilrma_s03.wav",
-              "duration_s": 4.67
+              "file": "distance_audio/3m_male_agms-ilrma_s06.wav",
+              "duration_s": 3.35
             },
             {
               "method": "agms-fw",
               "method_name": "AGMS-ILRMA + FW-RCSCME",
               "tag": "",
-              "file": "distance_audio/3m_male_agms-fw_s03.wav",
-              "duration_s": 4.67
+              "file": "distance_audio/3m_male_agms-fw_s06.wav",
+              "duration_s": 3.35
             }
           ]
         }
@@ -117,32 +117,32 @@
         {
           "speaker": "female",
           "speaker_label": "Female voice",
-          "case_dir": "sp001_5m_a0_80dBA_noise002_fft2048_minimal",
-          "sentence_index": "03",
-          "clip_start_s": 7.16,
-          "clip_end_s": 10.465,
-          "speech_start_s": 8.16,
-          "speech_end_s": 9.465,
+          "case_dir": "sp001_5m_a0_80dBA_noise004_fft2048_seed1_minimal",
+          "sentence_index": "08",
+          "clip_start_s": 24.91,
+          "clip_end_s": 28.215,
+          "speech_start_s": 25.91,
+          "speech_end_s": 27.215,
           "methods": [
             {
               "method": "raw",
               "method_name": "Input",
               "tag": "Input",
-              "file": "distance_audio/5m_female_raw_s03.wav",
+              "file": "distance_audio/5m_female_raw_s08.wav",
               "duration_s": 3.31
             },
             {
               "method": "agms-ilrma",
               "method_name": "AGMS-ILRMA",
               "tag": "",
-              "file": "distance_audio/5m_female_agms-ilrma_s03.wav",
+              "file": "distance_audio/5m_female_agms-ilrma_s08.wav",
               "duration_s": 3.31
             },
             {
               "method": "agms-fw",
               "method_name": "AGMS-ILRMA + FW-RCSCME",
               "tag": "",
-              "file": "distance_audio/5m_female_agms-fw_s03.wav",
+              "file": "distance_audio/5m_female_agms-fw_s08.wav",
               "duration_s": 3.31
             }
           ]
@@ -150,11 +150,11 @@
         {
           "speaker": "male",
           "speaker_label": "Male voice",
-          "case_dir": "sp002_5m_a0_80dBA_noise004_fft2048_minimal",
+          "case_dir": "sp002_5m_a0_80dBA_noise004_fft2048_seed2_minimal",
           "sentence_index": "03",
-          "clip_start_s": 7.31,
+          "clip_start_s": 7.3,
           "clip_end_s": 11.165,
-          "speech_start_s": 8.31,
+          "speech_start_s": 8.3,
           "speech_end_s": 10.165,
           "methods": [
             {
@@ -162,21 +162,21 @@
               "method_name": "Input",
               "tag": "Input",
               "file": "distance_audio/5m_male_raw_s03.wav",
-              "duration_s": 3.85
+              "duration_s": 3.87
             },
             {
               "method": "agms-ilrma",
               "method_name": "AGMS-ILRMA",
               "tag": "",
               "file": "distance_audio/5m_male_agms-ilrma_s03.wav",
-              "duration_s": 3.85
+              "duration_s": 3.87
             },
             {
               "method": "agms-fw",
               "method_name": "AGMS-ILRMA + FW-RCSCME",
               "tag": "",
               "file": "distance_audio/5m_male_agms-fw_s03.wav",
-              "duration_s": 3.85
+              "duration_s": 3.87
             }
           ]
         }
@@ -193,66 +193,66 @@
         {
           "speaker": "female",
           "speaker_label": "Female voice",
-          "case_dir": "sp001_10m_a0_80dBA_noise002_fft2048_minimal",
+          "case_dir": "sp001_10m_a0_80dBA_noise003_fft2048_seed3_minimal",
           "sentence_index": "03",
           "clip_start_s": 7.17,
-          "clip_end_s": 10.455,
+          "clip_end_s": 14.105,
           "speech_start_s": 8.17,
-          "speech_end_s": 9.455,
+          "speech_end_s": 13.105,
           "methods": [
             {
               "method": "raw",
               "method_name": "Input",
               "tag": "Input",
               "file": "distance_audio/10m_female_raw_s03.wav",
-              "duration_s": 3.29
+              "duration_s": 6.93
             },
             {
               "method": "agms-ilrma",
               "method_name": "AGMS-ILRMA",
               "tag": "",
               "file": "distance_audio/10m_female_agms-ilrma_s03.wav",
-              "duration_s": 3.29
+              "duration_s": 6.93
             },
             {
               "method": "agms-fw",
               "method_name": "AGMS-ILRMA + FW-RCSCME",
               "tag": "",
               "file": "distance_audio/10m_female_agms-fw_s03.wav",
-              "duration_s": 3.29
+              "duration_s": 6.93
             }
           ]
         },
         {
           "speaker": "male",
           "speaker_label": "Male voice",
-          "case_dir": "sp002_10m_a0_80dBA_noise004_fft2048_minimal",
-          "sentence_index": "03",
-          "clip_start_s": 7.34,
-          "clip_end_s": 11.175,
-          "speech_start_s": 8.34,
-          "speech_end_s": 10.175,
+          "case_dir": "sp002_10m_a0_80dBA_noise003_fft2048_seed3_minimal",
+          "sentence_index": "02",
+          "clip_start_s": 3.83,
+          "clip_end_s": 7.135,
+          "speech_start_s": 4.83,
+          "speech_end_s": 6.135,
           "methods": [
             {
               "method": "raw",
               "method_name": "Input",
               "tag": "Input",
-              "file": "distance_audio/10m_male_raw_s03.wav",
-              "duration_s": 3.83
+              "file": "distance_audio/10m_male_raw_s02.wav",
+              "duration_s": 3.31
             },
             {
               "method": "agms-ilrma",
               "method_name": "AGMS-ILRMA",
               "tag": "",
-              "file": "distance_audio/10m_male_agms-ilrma_s03.wav",
-              "duration_s": 3.83
+              "file": "distance_audio/10m_male_agms-ilrma_s02.wav",
+              "duration_s": 3.31
             },
             {
               "method": "agms-fw",
               "method_name": "AGMS-ILRMA + FW-RCSCME",
               "tag": "",
-              "file": "distance_audio/10m_male_agms-fw_s03.wav",
-              "duration_s": 3.83
+              "file": "distance_audio/10m_male_agms-fw_s02.wav",
+              "duration_s": 3.31
             }
           ]
         }
@@ -269,66 +269,66 @@
         {
           "speaker": "female",
           "speaker_label": "Female voice",
-          "case_dir": "sp001_15m_a0_80dBA_noise002_fft2048_minimal",
-          "sentence_index": "03",
-          "clip_start_s": 7.19,
-          "clip_end_s": 10.465,
-          "speech_start_s": 8.19,
-          "speech_end_s": 9.465,
+          "case_dir": "sp001_15m_a0_80dBA_noise003_fft2048_seed3_minimal",
+          "sentence_index": "01",
+          "clip_start_s": 0.09,
+          "clip_end_s": 3.625,
+          "speech_start_s": 1.09,
+          "speech_end_s": 2.625,
           "methods": [
             {
               "method": "raw",
               "method_name": "Input",
               "tag": "Input",
-              "file": "distance_audio/15m_female_raw_s03.wav",
-              "duration_s": 3.27
+              "file": "distance_audio/15m_female_raw_s01.wav",
+              "duration_s": 3.54
             },
             {
               "method": "agms-ilrma",
               "method_name": "AGMS-ILRMA",
               "tag": "",
-              "file": "distance_audio/15m_female_agms-ilrma_s03.wav",
-              "duration_s": 3.27
+              "file": "distance_audio/15m_female_agms-ilrma_s01.wav",
+              "duration_s": 3.54
             },
             {
               "method": "agms-fw",
               "method_name": "AGMS-ILRMA + FW-RCSCME",
               "tag": "",
-              "file": "distance_audio/15m_female_agms-fw_s03.wav",
-              "duration_s": 3.27
+              "file": "distance_audio/15m_female_agms-fw_s01.wav",
+              "duration_s": 3.54
             }
           ]
         },
         {
           "speaker": "male",
           "speaker_label": "Male voice",
-          "case_dir": "sp002_15m_a0_80dBA_noise003_fft2048_minimal",
-          "sentence_index": "03",
-          "clip_start_s": 7.35,
-          "clip_end_s": 12.005,
-          "speech_start_s": 8.35,
-          "speech_end_s": 11.005,
+          "case_dir": "sp002_15m_a0_80dBA_noise002_fft2048_seed1_minimal",
+          "sentence_index": "04",
+          "clip_start_s": 11.22,
+          "clip_end_s": 14.705,
+          "speech_start_s": 12.22,
+          "speech_end_s": 13.705,
           "methods": [
             {
               "method": "raw",
               "method_name": "Input",
               "tag": "Input",
-              "file": "distance_audio/15m_male_raw_s03.wav",
-              "duration_s": 4.66
+              "file": "distance_audio/15m_male_raw_s04.wav",
+              "duration_s": 3.48
             },
             {
               "method": "agms-ilrma",
               "method_name": "AGMS-ILRMA",
               "tag": "",
-              "file": "distance_audio/15m_male_agms-ilrma_s03.wav",
-              "duration_s": 4.66
+              "file": "distance_audio/15m_male_agms-ilrma_s04.wav",
+              "duration_s": 3.48
             },
             {
               "method": "agms-fw",
               "method_name": "AGMS-ILRMA + FW-RCSCME",
               "tag": "",
-              "file": "distance_audio/15m_male_agms-fw_s03.wav",
-              "duration_s": 4.66
+              "file": "distance_audio/15m_male_agms-fw_s04.wav",
+              "duration_s": 3.48
             }
           ]
         }
